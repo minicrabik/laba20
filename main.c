@@ -4,6 +4,7 @@
 #include "tasks/task_4.h"
 #include "tasks/task_5.h"
 #include "tasks/task_6.h"
+#include "tasks/task_7.h"
 
 int main() {
     test_fill_matrix();
@@ -12,4 +13,5 @@ int main() {
     test_get_domains();
     test_get_submatrix();
     test_generate_nums();
+    test_generate_tree();
 }

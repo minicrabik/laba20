@@ -80,7 +80,7 @@ void median_filter(const char* filename) {
 
 
 void test_median_filter_1_empty_file() {
-    const char filename[] = "/home/lenovo/Документы/prjct/clion/Laba-20/file_for_task/task_3/task_3_test_1.txt";
+    const char filename[] = "C:\\Users\\Desktop\\laba_op_20\\task_3_test_1.txt";
 
     FILE* file = fopen(filename, "wb");
 
@@ -108,7 +108,7 @@ void test_median_filter_1_empty_file() {
 
 
 void test_median_filter_2_unit_file() {
-    const char filename[] = "/home/lenovo/Документы/prjct/clion/Laba-20/file_for_task/task_3/task_3_test_2.txt";
+    const char filename[] = "C:\\Users\\Desktop\\laba_op_20\\task_3_test_2.txt";
 
     FILE* file = fopen(filename, "wb");
 
@@ -140,7 +140,7 @@ void test_median_filter_2_unit_file() {
 
 
 void test_median_filter_3_small_matrix() {
-    const char filename[] = "/home/lenovo/Документы/prjct/clion/Laba-20/file_for_task/task_3/task_3_test_3.txt";
+    const char filename[] = "C:\\Users\\Desktop\\laba_op_20\\task_3_test_3.txt";
 
     FILE* file = fopen(filename, "wb");
 
@@ -190,7 +190,7 @@ void test_median_filter_3_small_matrix() {
 
 
 void test_median_filter_4_average_matrix() {
-    const char filename[] = "/home/lenovo/Документы/prjct/clion/Laba-20/file_for_task/task_3/task_3_test_4.txt";
+    const char filename[] = "C:\\Users\\Desktop\\laba_op_20\\task_3_test_4.txt";
 
     FILE* file = fopen(filename, "wb");
 
@@ -244,7 +244,7 @@ void test_median_filter_4_average_matrix() {
 
 
 void test_median_filter_5_big_matrix() {
-    const char filename[] = "/home/lenovo/Документы/prjct/clion/Laba-20/file_for_task/task_3/task_3_test_5.txt";
+    const char filename[] = "C:\\Users\\Desktop\\laba_op_20\\task_3_test_5.txt";
 
     FILE* file = fopen(filename, "wb");
 

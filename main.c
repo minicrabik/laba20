@@ -2,10 +2,12 @@
 #include "tasks/task_2.h"
 #include "tasks/task_3.h"
 #include "tasks/task_4.h"
+#include "tasks/task_5.h"
 
 int main() {
     test_fill_matrix();
     test_game_life();
     test_median_filter();
-    test_get_domains()
+    test_get_domains();
+    test_get_submatrix();
 }

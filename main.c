@@ -3,6 +3,7 @@
 #include "tasks/task_3.h"
 #include "tasks/task_4.h"
 #include "tasks/task_5.h"
+#include "tasks/task_6.h"
 
 int main() {
     test_fill_matrix();
@@ -10,4 +11,5 @@ int main() {
     test_median_filter();
     test_get_domains();
     test_get_submatrix();
+    test_generate_nums();
 }

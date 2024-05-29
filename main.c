@@ -17,5 +17,5 @@ int main() {
     test_generate_nums();
     test_generate_tree();
     test_rearrange_string();
-
+    test_auto_completion();
 }
